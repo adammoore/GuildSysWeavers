@@ -24,12 +24,6 @@ header_pages:
   - charter.md
   - join.md
 
-# Minima theme configuration
-minima:
-  skin: classic
-
 # Exclude build tooling from the site output
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - vendor

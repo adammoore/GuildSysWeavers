@@ -96,7 +96,6 @@ Then open `http://localhost:4000/GuildSysWeavers/` in your browser.
 ├── NOTICE                      # Attribution
 ├── docs/                       # GitHub Pages site (Jekyll)
 │   ├── _config.yml             # Jekyll configuration
-│   ├── Gemfile                 # Ruby dependencies
 │   ├── index.md                # Homepage
 │   ├── about.md                # About the craft
 │   ├── manifesto.md            # Manifesto
@@ -117,8 +116,7 @@ Then open `http://localhost:4000/GuildSysWeavers/` in your browser.
 │   │   ├── index.md            # Governance overview
 │   │   └── decisions.md        # Decision-making model
 │   └── assets/
-│       └── css/
-│           └── style.scss      # Custom styles
+│       └── main.scss           # Custom styles (Minima override)
 ├── templates/                  # Reusable contribution templates
 │   ├── pattern-template.md
 │   ├── case-study-template.md
