@@ -8,7 +8,7 @@ This repository is the seed of a guild intended to recognise, develop, and advoc
 
 ## Why this exists
 
-Many infrastructure and transformation projects depend on people who can work across technical, organisational, and procedural boundaries. These practitioners are often described informally as "glue people", "plumbers", "Swiss army knives", or "jacks of all trades", but those labels fail to dignify the sophistication of the work.
+Many infrastructure and transformation projects depend on people who can work across technical, organisational, and procedural boundaries. These practitioners are often described informally as “glue people”, “plumbers”, “Swiss army knives”, or “jacks of all trades”, but those labels fail to dignify the sophistication of the work.
 
 This project exists to support:
 
@@ -30,5 +30,6 @@ This project exists to support:
 ## Local setup
 
 ```bash
-cd ~/Desktop/GuildSysWeavers
+cd ~/GuildSysWeavers
 git status
+
