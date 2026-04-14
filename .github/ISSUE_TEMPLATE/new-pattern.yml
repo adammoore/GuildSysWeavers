@@ -1,0 +1,46 @@
+name: New Pattern
+description: Propose a new pattern for the pattern library
+title: "[Pattern] "
+labels: ["pattern", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a new pattern for the Guild of Systems Weavers pattern library. You don't need to have the full pattern written — a clear description of the situation is a good starting point.
+  - type: input
+    id: pattern-name
+    attributes:
+      label: Pattern name
+      description: A short, descriptive name for the pattern
+      placeholder: "When..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: In what situation does this pattern arise?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What goes wrong? What is the core difficulty?
+    validations:
+      required: true
+  - type: textarea
+    id: warning-signs
+    attributes:
+      label: Warning signs
+      description: How would a practitioner recognise this pattern?
+  - type: textarea
+    id: approaches
+    attributes:
+      label: Approaches
+      description: What have you seen work (or not work) in this situation?
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other information, examples, or related patterns

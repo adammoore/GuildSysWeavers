@@ -1,0 +1,33 @@
+name: Glossary Suggestion
+description: Suggest a new term or refinement for the role glossary
+title: "[Glossary] "
+labels: ["glossary", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to suggest a new term for the role glossary or to propose a refinement of an existing definition.
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: The term you would like to add or refine
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Proposed definition
+      description: How would you define this term?
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship to Systems Weaver
+      description: How does this term relate to the guild's core concept?
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Where have you encountered this term? Why is it relevant?

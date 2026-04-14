@@ -1,0 +1,35 @@
+title: Guild of Systems Weavers
+description: >-
+  A professional commons for cross-boundary infrastructure practice.
+  Recognising, codifying, and professionalising the craft of Systems Weaving.
+
+# GitHub Pages will set url automatically; baseurl must match the repo name
+# If using a custom domain or organisation-level pages, adjust accordingly
+baseurl: "/GuildSysWeavers"
+
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pages shown in the site header navigation
+header_pages:
+  - about.md
+  - manifesto.md
+  - patterns/index.md
+  - competencies.md
+  - recognition.md
+  - charter.md
+  - join.md
+
+# Minima theme configuration
+minima:
+  skin: classic
+
+# Exclude build tooling from the site output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

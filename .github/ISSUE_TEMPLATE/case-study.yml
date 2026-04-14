@@ -1,0 +1,40 @@
+name: Case Study Submission
+description: Propose or discuss a case study for the guild
+title: "[Case Study] "
+labels: ["case-study", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a case study for the Guild of Systems Weavers. Case studies document real-world examples of cross-boundary infrastructure practice. They may be anonymised.
+  - type: input
+    id: title
+    attributes:
+      label: Case study title
+      description: A brief descriptive title
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief summary of the situation and what makes it relevant
+    validations:
+      required: true
+  - type: input
+    id: sector
+    attributes:
+      label: Sector
+      description: "e.g. Healthcare, Higher Education, Government, Financial Services"
+  - type: textarea
+    id: patterns
+    attributes:
+      label: Related patterns
+      description: Which patterns from the pattern library were present?
+  - type: checkboxes
+    id: anonymised
+    attributes:
+      label: Anonymisation
+      options:
+        - label: This case study will be anonymised
+        - label: I have appropriate permissions to share this case study

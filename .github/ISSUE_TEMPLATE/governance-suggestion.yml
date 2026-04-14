@@ -1,0 +1,33 @@
+name: Governance Suggestion
+description: Suggest a change to the guild's governance or structure
+title: "[Governance] "
+labels: ["governance", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a change to how the Guild of Systems Weavers is governed or structured.
+  - type: input
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What change are you suggesting?
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed? What problem does it address?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who and what would be affected by this change?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you consider?
